@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     final Observer<String> queryObserver = new Observer<String>() {
       @Override
       public void onChanged(@Nullable String s) {
+        mViewModel.resetSearchPage();
         mViewModel.fetchRecipeSearchList();
       }
     };

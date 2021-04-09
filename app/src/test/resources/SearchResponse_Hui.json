@@ -1,0 +1,694 @@
+{
+  "criteria":{
+    "q":"hui",
+    "allowedIngredient":null,
+    "excludedIngredient":null
+  },
+  "matches":[
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh6.ggpht.com/2FF4LLuC30I4e68bFgrB3K17HeOWBPcHytAgmz1f1feDvasDhmZKk505cvwzmJiMOwLC_4LnZy_cDvGHzacFiw=s90-c"
+      },
+      "sourceDisplayName":"No Recipes",
+      "ingredients":[
+        "pork belly",
+        "bean paste",
+        "Shaoxing wine",
+        "soy sauce",
+        "sugar",
+        "vegetable oil",
+        "ginger",
+        "chili bean paste",
+        "garlic scapes",
+        "scallions"
+      ],
+      "id":"Twice-Cooked-Pork-_Hui-Guo-Rou_-571942",
+      "smallImageUrls":[
+        "https://lh4.ggpht.com/cWn-Vi_R1V9_4mWAzZkD3wTuPTTxY91mh4catCGAfKjH173Rl8KX_wT-5eC_Jesiovbgr6gznZM-TXGYXiBUfw=s90"
+      ],
+      "recipeName":"Twice Cooked Pork (Huí Guō Ròu)",
+      "totalTimeInSeconds":2700,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Chinese"
+        ]
+      },
+      "flavors":null,
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/9mS0YJ4E0K2xQfOD3ZCPrAT3cgMBaR-GfWsL8UtVaAuIweyu9TImIQF2npNV_OjBy3eV_TSwZZlAepsEDSpsEbg=s90-c"
+      },
+      "sourceDisplayName":"The Mala Project",
+      "ingredients":[
+        "pork belly",
+        "chili bean paste",
+        "wheat",
+        "black beans",
+        "light soy sauce",
+        "sugar",
+        "leeks",
+        "scallions"
+      ],
+      "id":"Twice-Cooked-Pork-_Hui-Guo-Rou_-1535896",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/IIxXDZN_pHLVQd1-zxrikkmMOrIiHUcwiKsOjf0c54TXeTjfKaGJ5Czc-PnVc6PD1iiLUgE6CekH8e6a8bz3xZY=s90"
+      ],
+      "recipeName":"Twice-Cooked Pork (Hui Guo Rou)",
+      "totalTimeInSeconds":3900,
+      "attributes":{
+        "course":[
+          "Complete Main Dishes",
+          "Main Dishes"
+        ]
+      },
+      "flavors":{
+        "bitter":1.0,
+        "meaty":1.0,
+        "piquant":0.8333333333333334,
+        "salty":1.0,
+        "sour":1.0,
+        "sweet":1.0
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/CIl0zm2RoK19HxCnkVZcPN82A-bM96Fq76m5m3gD7y83bpMVr_ltvqpSva-S--XvHU8CURg7FG0dnWvhQDUWsA=s90-c"
+      },
+      "sourceDisplayName":"The Mala Market",
+      "ingredients":[
+        "pork belly",
+        "chili bean paste",
+        "wheat",
+        "black beans",
+        "light soy sauce",
+        "sugar",
+        "leeks",
+        "scallions"
+      ],
+      "id":"Twice-Cooked-Pork-_Hui-Guo-Rou_-2646507",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/ab-C3fa05UkkocqK6COEgQcyYgkekUqhNfUPsGsOWfLesKNQCnVJHnyAnPmr_ExwAS_b3KljUslBlXZWXFMHjg=s90"
+      ],
+      "recipeName":"Twice-Cooked Pork (Hui Guo Rou)",
+      "totalTimeInSeconds":3900,
+      "attributes":{
+        "course":[
+          "Complete Main Dishes",
+          "Main Dishes"
+        ]
+      },
+      "flavors":{
+        "bitter":0.16666666666666666,
+        "meaty":0.8333333333333334,
+        "piquant":0.6666666666666666,
+        "salty":0.3333333333333333,
+        "sour":0.5,
+        "sweet":0.16666666666666666
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/qck-tQ2dIl4EAF8Pmbog4KSbET9ZeoQkl2A9uJwPahSFhjO-2XKEa9t6RA4LPvT4ngUsRrZF0vFlx3Y5JJMN=s90-c"
+      },
+      "sourceDisplayName":"Feeding Fen",
+      "ingredients":[
+        "pork belly",
+        "leeks",
+        "cooking oil",
+        "bean paste",
+        "sauce",
+        "fermented black beans",
+        "dark soy sauce",
+        "caster sugar",
+        "salt",
+        "red chilli"
+      ],
+      "id":"Twice-Cooked-Pork-Recipe-_Hui-Guo-Rou_-1630686",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/UVlMRW7ZfeERDG2-QlGzx0AzcyWU40nP2-hH9ZOj39RPDHD_NwM2r7fHCQwAPA8R51t03D0Xvv2fdap7QzIj=s90"
+      ],
+      "recipeName":"Twice-Cooked Pork Recipe (Hui Guo Rou)",
+      "totalTimeInSeconds":2700,
+      "attributes":{
+        "course":[
+          "Complete Main Dishes",
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Asian"
+        ]
+      },
+      "flavors":{
+        "bitter":0.5,
+        "meaty":0.6666666666666666,
+        "piquant":0.8333333333333334,
+        "salty":0.5,
+        "sour":0.6666666666666666,
+        "sweet":0.3333333333333333
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/xcAhUNNFg5Lp57ABpSjFHMJeXGiXddqxKY4sDogzRJtXzsFUTZJ0H_J-DKr8acg_x6qRNW2KZQt_wm1T1Api=s90-c"
+      },
+      "sourceDisplayName":"The Recipe Critic",
+      "ingredients":[
+        "boneless skinless chicken thighs",
+        "unsweetened pineapple juice",
+        "soy sauce",
+        "brown sugar",
+        "ketchup",
+        "chicken broth",
+        "fresh ginger root",
+        "minced garlic",
+        "green onions"
+      ],
+      "id":"Grilled-Huli-Huli-Chicken-2423160",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/3ce1AZ_1-jKdi-57Fq_0momp7xMgaHQsDYBK0hwwFXBw5z661DkNmKsny9otB56qJWldiv15xlf5Ouh6tcNiTQ=s90"
+      ],
+      "recipeName":"Grilled Huli Huli Chicken",
+      "totalTimeInSeconds":1800,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":{
+        "bitter":0.6666666666666666,
+        "meaty":0.5,
+        "piquant":0.0,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.3333333333333333
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/e6-GGbhjrHYmt1KUEb9fafJniRV14v7GSn0C2yH_EIY4Hm-FOzfmfK0HeVpUb49obAl5N1wvFy2bt5C6p3D5Zw=s90-c"
+      },
+      "sourceDisplayName":"Deep South Dish",
+      "ingredients":[
+        "chicken leg quarters",
+        "water",
+        "kosher salt",
+        "apple cider vinegar",
+        "cracked black pepper",
+        "Cajun seasoning",
+        "garlic powder",
+        "pineapple juice",
+        "tomato sauce",
+        "low sodium soy sauce",
+        "honey",
+        "light brown sugar",
+        "ground ginger",
+        "Worcestershire sauce",
+        "olive oil",
+        "hot sauce",
+        "lemon"
+      ],
+      "id":"Grilled-Huli-Huli-Chicken-9028488",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/4hMSmw4NuUIxGXPacRI6ONWgvgKkc_cH_0l6yXKaJlczOwwhb5uIa-jeBV0UTIkqwD-tMEPqhiWlMT-p6jx7=s90"
+      ],
+      "recipeName":"Grilled Huli Huli Chicken",
+      "totalTimeInSeconds":16200,
+      "attributes":{
+
+      },
+      "flavors":{
+        "bitter":0.16666666666666666,
+        "meaty":0.16666666666666666,
+        "piquant":0.8333333333333334,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.3333333333333333
+      },
+      "rating":4
+    },
+    {
+      "recipeName":"Yang Rou Hui Mian (Hui Style Lamb Noodle Soup)",
+      "ingredients":[
+        "vegetable oil",
+        "ginger",
+        "garlic",
+        "lamb",
+        "salt",
+        "tomatoes",
+        "hot water",
+        "spinach",
+        "egg noodles",
+        "cilantro leaf",
+        "chinkiang vinegar",
+        "soy sauce"
+      ],
+      "totalTimeInSeconds":3000,
+      "sourceDisplayName":"Food.com",
+      "id":"Yang-Rou-Hui-Mian-_Hui-Style-Lamb-Noodle-Soup_-Food_com-140981",
+      "rating":3,
+      "flavors":{
+        "bitter":0.16666666666666666,
+        "meaty":0.16666666666666666,
+        "piquant":0.0,
+        "salty":0.16666666666666666,
+        "sour":0.16666666666666666,
+        "sweet":0.16666666666666666
+      },
+      "attributes":{
+        "course":[
+          "Complete Main Dishes",
+          "Main Dishes",
+          "Soups"
+        ]
+      }
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/Tbb1Br0SghrGnqJb3cm_OelJ9Q2jWWytZWEYFHDkEJk1Kkgo9Pddaw41UQi17clfbNz8VzBDDKaoV4RsH5EZ=s90-c"
+      },
+      "sourceDisplayName":"Cooking Classy",
+      "ingredients":[
+        "ketchup",
+        "low sodium soy sauce",
+        "light brown sugar",
+        "rice vinegar",
+        "Sriracha",
+        "Worcestershire sauce",
+        "sesame oil",
+        "minced garlic",
+        "minced fresh ginger",
+        "boneless skinless chicken thighs",
+        "vegetable oil"
+      ],
+      "id":"Hawaiian-Huli-Huli-Chicken-9252465",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/llSa6hRE297RGDCWb5IoJGmdkGQsM3wWh0fb1SvJg_p7MoMCEp9TUhxhxXAbr0HwGwVT4oVQTBmq5kx-KKxudg=s90"
+      ],
+      "recipeName":"Hawaiian Huli Huli Chicken",
+      "totalTimeInSeconds":9000,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue",
+          "Hawaiian"
+        ]
+      },
+      "flavors":{
+        "bitter":0.6666666666666666,
+        "meaty":0.6666666666666666,
+        "piquant":0.6666666666666666,
+        "salty":0.6666666666666666,
+        "sour":0.16666666666666666,
+        "sweet":0.5
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh6.ggpht.com/TELCh3zx6-8fGx_XzV98stqklsV1qvsoM9zxuWpW_GMm0fZ_IC4PeutDWTSs2zX-DFavhH-AhJHHn0bwo5vijw=s90-c"
+      },
+      "sourceDisplayName":"Barefeet In The Kitchen",
+      "ingredients":[
+        "water",
+        "soy sauce",
+        "garlic cloves",
+        "fresh ginger",
+        "boneless skinless chicken thighs",
+        "garlic chili paste",
+        "garlic",
+        "pineapple juice",
+        "dark brown sugar",
+        "ketchup",
+        "rice vinegar"
+      ],
+      "id":"Huli-Huli-Chicken-1023503",
+      "smallImageUrls":[
+        "https://lh6.ggpht.com/ow0tjRl9KZkIlI7CTMVVxsCFNgs_uUyO4YVNhns_2qXXznXJU0DLkaYTr-hqi0wBWbk47Mdiv6O8Y4oaETeMMrs=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":3900,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue",
+          "Hawaiian"
+        ]
+      },
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.16666666666666666,
+        "piquant":0.0,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.3333333333333333
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/eKwYzaLRMNx6lXI8bhyiY_HbKRYCMB2mNt5K9hv9gC5sx6CCVmTAgPcSUCnM_p54RZ826tRGno4KvUPoAwxFtQ=s90-c"
+      },
+      "sourceDisplayName":"Kevin Is Cooking",
+      "ingredients":[
+        "boneless skinless chicken thighs",
+        "pineapple juice",
+        "pineapple chunks",
+        "soy sauce",
+        "brown sugar",
+        "ketchup",
+        "sherry",
+        "honey",
+        "fresh ginger",
+        "garlic cloves",
+        "sesame oil",
+        "Sriracha"
+      ],
+      "id":"Hawaiian-Huli-Huli-Chicken-9014494",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/L2fdu03WYgcIyABs268i8BbCpV8yjj2JO8l1To3EWe0tNwQX6MQjDcETbYaLM7pFHh97i4NK8tcwFhiRyjBo6g=s90"
+      ],
+      "recipeName":"Hawaiian Huli Huli Chicken",
+      "totalTimeInSeconds":29520,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue",
+          "Hawaiian"
+        ]
+      },
+      "flavors":{
+        "bitter":0.5,
+        "meaty":0.3333333333333333,
+        "piquant":0.3333333333333333,
+        "salty":0.8333333333333334,
+        "sour":0.5,
+        "sweet":0.5
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh4.ggpht.com/lus47y649j-iuTAcRFt-KcsuCdfeGyqVMc6773BY9vMedWBEZYDvR5srcsxIiQ1KLMjs9X5yUMnv4lBNGJI8yQ=s90-c"
+      },
+      "sourceDisplayName":"CDKitchen",
+      "ingredients":[
+        "warm water",
+        "non-fat dry milk",
+        "salt",
+        "flour",
+        "sugar",
+        "dry yeast",
+        "vegetable oil",
+        "butter flavored cooking spray",
+        "sauce",
+        "tomato sauce",
+        "oregano",
+        "marjoram",
+        "basil",
+        "garlic salt"
+      ],
+      "id":"Pizza-Hut-Original-Pan-Pizza-946563",
+      "smallImageUrls":[
+        "https://lh3.ggpht.com/CNfY755ShqeRDwuUmHgog0KH8F6lzTpjDX5QU9_EAvLrwXk5tRJ6CPF0tAtsoBKWxS3im8ewPVDWvX4yOZfv=s90"
+      ],
+      "recipeName":"Pizza Hut Original Pan Pizza",
+      "totalTimeInSeconds":7200,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ]
+      },
+      "flavors":null,
+      "rating":3
+    },
+    {
+      "recipeName":"Hui Style Vegetable Soup",
+      "ingredients":[
+        "tofu",
+        "vegetable oil",
+        "ginger",
+        "salt",
+        "szechuan peppercorns",
+        "ground cumin",
+        "yukon gold potatoes",
+        "napa cabbage",
+        "water",
+        "sambal oelek",
+        "spinach leaves"
+      ],
+      "totalTimeInSeconds":3600,
+      "sourceDisplayName":"Food.com",
+      "id":"Hui-Style-Vegetable-Soup-Food_com-176746",
+      "rating":4,
+      "flavors":null,
+      "attributes":{
+        "course":[
+          "Soups"
+        ]
+      }
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/_br7DZ5m3Wp5YC3bXBLVPLQi_6mir0YWPLjaKmG5Odh14LGHAGLKscKcI7Q0GfSw3eDTxjrR0vTSqmAFkzlF=s90-c"
+      },
+      "sourceDisplayName":"Happily Unprocessed",
+      "ingredients":[
+        "chicken thighs",
+        "pineapple",
+        "white wine",
+        "organic chicken broth",
+        "organic soy sauce",
+        "ketchup",
+        "brown sugar",
+        "powdered ginger",
+        "worcestershire sauce"
+      ],
+      "id":"Huli-Huli-Chicken-2145818",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/05j-lspZvMJD3UyWK118l_pJxNE2sKn7TgtuCRqLBpYdTPTqJbyVHU_Kw3AurtaqFoopYju2GhxfuMShYujj5Q=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":4800,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":null,
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/re6-XB19EXGAFqjyL2e4ie2dE_q7b21wzXx5O9uDBwTk7ovFCGPBEMAZXR8BmjwfgoLPLBeunzfz_9OCpP87=s90-c"
+      },
+      "sourceDisplayName":"Going My Wayz",
+      "ingredients":[
+        "chicken pieces",
+        "ketchup",
+        "soy sauce",
+        "brown sugar",
+        "sherry wine",
+        "gingerroot",
+        "garlic cloves",
+        "curry powder",
+        "Thai sweet chili sauce"
+      ],
+      "id":"Huli-Huli-Chicken-2501811",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/mDqLuxm81b4OmlXAm_Q5tJIPlcGXOPV8ALCMw53TaX9NWLtZf3M1zhn4WYowKX7tHw5CUceEs_vxqcoLv71c=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":3300,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":null,
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/NuLCFp9HEesBNjRCEZ3gIVnkAeSWeN95b4pqLhvj_o6xMbq67GqUKJl8F3Ru3hfCjGIhn7_K5FKCvP2i-HllZw=s90-c"
+      },
+      "sourceDisplayName":"Gonna Want Seconds",
+      "ingredients":[
+        "dark brown sugar",
+        "ketchup",
+        "soy sauce",
+        "pineapple juice",
+        "sherry",
+        "fresh ginger",
+        "garlic",
+        "boneless chicken breasts",
+        "pineapple slices",
+        "sliced green onions"
+      ],
+      "id":"Huli-Huli-Chicken-2577131",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/iXSN5rAFy4qluUq9B3iSLiGvgdhch8oTj_tAKUf6ZYPbSzuGJcvORF7254mR60oX872fJLlD7LG-cVJd9LCn=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":1500,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.3333333333333333,
+        "piquant":0.0,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.5
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/PYLO65WCG7i5hRDxZEGx056Kq-lzjaNTEPGQnHaXWfPeXfVrrW-dB21jPl8zFXDLPAZtkktChw-cE3ZraAPE=s90-c"
+      },
+      "sourceDisplayName":"Lil' Luna",
+      "ingredients":[
+        "brown sugar",
+        "ketchup",
+        "reduced sodium soy sauce",
+        "chicken broth",
+        "ginger",
+        "minced garlic",
+        "boneless skinless chicken thighs"
+      ],
+      "id":"Huli-Huli-Chicken-9022275",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/JkZ_Hj4o3cs-FWDWjGP_jwfGk2h1ClUs38XSkh5jl0GoCR0ircPQ9yZm9GMpVxEnplL01JwR8hTJaZWd_qW5rFI=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":1260,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue",
+          "Kid-Friendly"
+        ]
+      },
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.3333333333333333,
+        "piquant":0.0,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.5
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh6.ggpht.com/Q5CxlFETZmM1MkrXTT3SXxywotcfVibQBaqgVvNO3vRl-ZAwZoqzOAfN8iB8zp1M3CA5xXqHZCoCXgaGsjsKaTI=s90-c"
+      },
+      "sourceDisplayName":"Serious Eats",
+      "ingredients":[
+        "Swiss chard",
+        "lard",
+        "cooking oil",
+        "bean paste",
+        "chopped garlic",
+        "ginger",
+        "fermented black beans",
+        "chicken stock",
+        "chopped celery",
+        "chopped cilantro",
+        "greens"
+      ],
+      "id":"Fuchsia-dunlop_s-twice-cooked-swiss-chard-_hui-gua-niu-pi-cai_-335780",
+      "smallImageUrls":[
+        "https://lh3.ggpht.com/XUQi_Lm1u6azaPSelf5jYFOlt0o6kM1HLhM7-QsCKZ66hxZxvzRn3439f6MCCAeGHamsItKY4Q0XplT4lF_kuQ=s90"
+      ],
+      "recipeName":"Fuchsia Dunlop's Twice-Cooked Swiss Chard (Hui Gua Niu Pi Cai)",
+      "totalTimeInSeconds":2400,
+      "attributes":{
+        "course":[
+          "Side Dishes"
+        ]
+      },
+      "flavors":null,
+      "rating":5
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/yQm7-W9yVbJh3HmjZDmoF5i1EI8GunZMlQABJu4aWK48ot6hD8bU5agIa_if4wyCV_IwbaEh5O5esadOonSUxdA=s90-c"
+      },
+      "sourceDisplayName":"Chew Out Loud",
+      "ingredients":[
+        "skinless chicken breasts",
+        "packed brown sugar",
+        "ketchup",
+        "regular soy sauce",
+        "sherry",
+        "fresh ginger",
+        "garlic",
+        "freshly ground black pepper",
+        "green onions"
+      ],
+      "id":"Hawaiian-Huli-Huli-Chicken-1286040",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/JVtn3vR4o40I2NNNeYGXICoGNBrDV089nBfgCy9rV6Sl1hiXSmnkxD1VYD8AN54pEufkI7mrISMv8i6Q1d9QwkE=s90"
+      ],
+      "recipeName":"Hawaiian Huli Huli Chicken",
+      "totalTimeInSeconds":1800,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.5,
+        "piquant":0.0,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.5
+      },
+      "rating":4
+    }
+  ],
+  "totalMatchCount":666,
+  "attribution":{
+    "html":"Recipe search powered by <a href='https://www.yummly.com/recipes'><img alt='Yummly' src='https://static.yummly.com/api-logo.png'/></a>",
+    "url":"https://www.yummly.com/recipes/",
+    "text":"Recipe search powered by Yummly",
+    "logo":"https://static.yummly.com/api-logo.png"
+  }
+}

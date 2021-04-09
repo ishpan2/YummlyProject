@@ -10,17 +10,13 @@ public class ApiClient {
     private static final String BASE_URL = "https://api.yummly.com/v1/api/";
     private static Retrofit retrofit = null;
 
-    public ApiClient() {
-    }
+    public static Retrofit getClient() {
 
-
-        public static Retrofit getClient() {
-
+        if (retrofit==null) {
             OkHttpClient client = new OkHttpClient
                     .Builder()
+                    .addInterceptor(new MockInterceptor())
                     .build();
-
-            if (retrofit==null) {
             retrofit = new Retrofit.Builder()
                     .baseUrl(BASE_URL)
                     .client(client)

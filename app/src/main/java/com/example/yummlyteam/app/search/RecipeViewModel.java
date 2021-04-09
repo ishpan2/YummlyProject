@@ -3,6 +3,7 @@ package com.example.yummlyteam.app.search;
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
+import android.util.Log;
 
 import com.example.yummlyteam.app.api.ApiClient;
 import com.example.yummlyteam.app.api.ApiInterface;
@@ -28,14 +29,7 @@ public class RecipeViewModel extends ViewModel {
     public void clearSearchList() {
         RecipeSearchList recipeSearchList = new RecipeSearchList();
         searchList.setValue(recipeSearchList);
-    }
-
-    private MutableLiveData<Integer> getCurrentSearchPage() {
-        return currentSearchPage;
-    }
-
-    private void setCurrentSearchPage(int page) {
-        currentSearchPage.setValue(page);
+        setSearchQuery("");
     }
 
     public void setSearchQuery(String q) {
@@ -51,34 +45,47 @@ public class RecipeViewModel extends ViewModel {
             return;
         }
 
+        //FUTURE WORK: Make into singleton to avoid repeated recreation of this object
         ApiInterface apiService =
                 ApiClient.getClient().create(ApiInterface.class);
         Call<RecipeSearchList> call = apiService.getRecipeList(APP_ID, ACCESS_KEY, query.getValue(), ITEM_PER_PAGE
-                , getCurrentSearchPage().getValue() == null ? 0 : getCurrentSearchPage().getValue());
+                , getCurrentSearchPage());
 
         call.enqueue(new Callback<RecipeSearchList>() {
             @Override
             public void onResponse(Call<RecipeSearchList> call, Response<RecipeSearchList> response) {
                 int statusCode = response.code();
-                searchList.setValue(response.body());
+                if(statusCode<400) {
+                    searchList.setValue(response.body());
+                } else {
+                    Log.d("Recipe server error", response.message());
+                }
             }
 
             @Override
             public void onFailure(Call<RecipeSearchList> call, Throwable t) {
-                preSearchPage();
+                Log.d("Recipe call error", t.getMessage());
             }
         });
     }
 
-    public void nextSearchPage() {
-        int newPageNumber = currentSearchPage.getValue() == null ? 0 : currentSearchPage.getValue() + ITEM_PER_PAGE;
-        setCurrentSearchPage(newPageNumber);
+    private void setCurrentSearchPage(int page) {
+        currentSearchPage.setValue(page);
     }
 
-    private void preSearchPage() {
-        if (currentSearchPage.getValue() == null) return;
+    public int getCurrentSearchPage() {
+        Integer curPage = currentSearchPage.getValue();
+        return curPage == null ? 0 : curPage;
+    }
 
-        int newPageNumber = currentSearchPage.getValue() == 0 ? 0 : currentSearchPage.getValue() - ITEM_PER_PAGE;
+    public void nextSearchPage() {
+        Integer curPage = currentSearchPage.getValue();
+        int newPageNumber = curPage == null ? 0 : curPage + ITEM_PER_PAGE;
         setCurrentSearchPage(newPageNumber);
+        fetchRecipeSearchList();
+    }
+
+    public void resetSearchPage() {
+        setCurrentSearchPage(0);
     }
 }
