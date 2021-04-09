@@ -7,7 +7,7 @@ import java.io.InputStream;
 
 
 public class Util {
-    //Should be in a different class, but did not want to create a whole new flag for a singular flag considering the scope of this project
+    //Should be in a different class, but did not want to create a whole new class for a singular flag considering the scope of this project
     public static boolean areMocksEnabled = false;
 
     public static boolean isNetworkConnectionAvailable(Context context) {

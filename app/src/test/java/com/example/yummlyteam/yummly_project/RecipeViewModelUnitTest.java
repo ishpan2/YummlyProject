@@ -2,7 +2,6 @@ package com.example.yummlyteam.yummly_project;
 
 import android.arch.core.executor.ArchTaskExecutor;
 import android.arch.core.executor.TaskExecutor;
-import android.util.Log;
 
 import com.example.yummlyteam.app.Util;
 import com.example.yummlyteam.app.model.Criteria;
@@ -37,7 +36,7 @@ public class RecipeViewModelUnitTest {
     //However, we must still wait for response, therefore a rare positive use case here of Thread.sleep in a Unit test
     //FUTURE WORK: Either break down function to test each piece and avoid the async call, or handle multithreading  in test more cleanly
     try {
-      Thread.sleep(200000);
+      Thread.sleep(1000);
     } catch (InterruptedException e) {
       e.printStackTrace();
     }
@@ -50,6 +49,7 @@ public class RecipeViewModelUnitTest {
 
   @Test
   public void testCurrentSearchPage() {
+    instantTaskExecutorRule.enableRule();
     RecipeViewModel model = new RecipeViewModel();
     Assert.assertEquals(0, model.getCurrentSearchPage());
     model.nextSearchPage();

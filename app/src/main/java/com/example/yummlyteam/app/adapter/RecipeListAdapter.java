@@ -70,7 +70,7 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
     }
 
     ApiInterface apiService =
-            ApiClient.getClient().create(ApiInterface.class);
+            ApiClient.getClient(null).create(ApiInterface.class);
     Call<Match> getRecipeCall = apiService.getRecipe(recipe.getId());
 
     getRecipeCall.enqueue(new Callback<Match>() {

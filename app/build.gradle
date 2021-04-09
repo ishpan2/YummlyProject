@@ -16,6 +16,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    //Share test resources (mock JSON) across androidTest and test
+    sourceSets {
+        String sharedTestJavaDir = 'src/sharedTest/java'
+
+        test {
+            java.srcDirs += [sharedTestJavaDir]
+        }
+
+        androidTest {
+            java.srcDirs += [sharedTestJavaDir]
+            resources.srcDirs += ['src/test/resources']
+        }
+    }
 }
 
 dependencies {
@@ -35,4 +48,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:3.0.2"
 }

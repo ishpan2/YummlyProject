@@ -7,6 +7,7 @@ import android.util.Log;
 
 import com.example.yummlyteam.app.api.ApiClient;
 import com.example.yummlyteam.app.api.ApiInterface;
+import com.example.yummlyteam.app.api.MockRecipesListInterceptor;
 import com.example.yummlyteam.app.model.RecipeSearchList;
 
 import retrofit2.Call;
@@ -21,6 +22,7 @@ public class RecipeViewModel extends ViewModel {
     private MutableLiveData<RecipeSearchList> searchList = new MutableLiveData<>();
     private MutableLiveData<Integer> currentSearchPage = new MutableLiveData<>();
     private MutableLiveData<String> query = new MutableLiveData<>();
+    private int searchPageAsyncTracker = 0;
 
     public LiveData<RecipeSearchList> getSearchList() {
         return searchList;
@@ -47,7 +49,7 @@ public class RecipeViewModel extends ViewModel {
 
         //FUTURE WORK: Make into singleton to avoid repeated recreation of this object
         ApiInterface apiService =
-                ApiClient.getClient().create(ApiInterface.class);
+                ApiClient.getClient(new MockRecipesListInterceptor()).create(ApiInterface.class);
         Call<RecipeSearchList> call = apiService.getRecipeList(APP_ID, ACCESS_KEY, query.getValue(), ITEM_PER_PAGE
                 , getCurrentSearchPage());
 
@@ -60,11 +62,13 @@ public class RecipeViewModel extends ViewModel {
                 } else {
                     Log.d(getClass().getSimpleName(), response.message());
                 }
+                searchPageAsyncTracker = getCurrentSearchPage();
             }
 
             @Override
             public void onFailure(Call<RecipeSearchList> call, Throwable t) {
                 Log.d(getClass().getSimpleName(), t.getMessage());
+                searchPageAsyncTracker = getCurrentSearchPage();
             }
         });
     }
@@ -79,10 +83,12 @@ public class RecipeViewModel extends ViewModel {
     }
 
     public void nextSearchPage() {
-        Integer curPage = currentSearchPage.getValue();
-        int newPageNumber = curPage == null ? 0 : curPage + ITEM_PER_PAGE;
-        setCurrentSearchPage(newPageNumber);
-        fetchRecipeSearchList();
+        int curPage = getCurrentSearchPage();
+        if(searchPageAsyncTracker ==curPage) {
+            int newPageNumber = curPage + ITEM_PER_PAGE;
+            setCurrentSearchPage(newPageNumber);
+            fetchRecipeSearchList();
+        }
     }
 
     public void resetSearchPage() {

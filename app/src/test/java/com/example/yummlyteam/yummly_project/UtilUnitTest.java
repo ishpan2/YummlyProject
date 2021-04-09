@@ -5,8 +5,6 @@ import com.example.yummlyteam.app.Util;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-
 /**
  * Example local unit test, which will execute on the development machine (host).
  *
@@ -40,7 +38,7 @@ public class UtilUnitTest {
   }
   @Test
   public void testGetJsonFromAssets() {
-    String[] jsonLines = Util.getJsonFromAssets("SearchResponse_Hui.json").split("\n");
+    String[] jsonLines = Util.getJsonFromAssets("SearchResponse_Hui_Page0.json").split("\n");
     Assert.assertEquals(mockSearchResponse_HuiThirdLine, jsonLines[2]);
   }
 }
