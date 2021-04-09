@@ -58,13 +58,13 @@ public class RecipeViewModel extends ViewModel {
                 if(statusCode<400) {
                     searchList.setValue(response.body());
                 } else {
-                    Log.d("Recipe server error", response.message());
+                    Log.d(getClass().getSimpleName(), response.message());
                 }
             }
 
             @Override
             public void onFailure(Call<RecipeSearchList> call, Throwable t) {
-                Log.d("Recipe call error", t.getMessage());
+                Log.d(getClass().getSimpleName(), t.getMessage());
             }
         });
     }

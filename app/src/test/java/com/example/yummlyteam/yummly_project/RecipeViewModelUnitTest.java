@@ -57,10 +57,6 @@ public class RecipeViewModelUnitTest {
     model.resetSearchPage();
     Assert.assertEquals(0, model.getCurrentSearchPage());
   }
-  @Test
-  public void testTimeFormatterHoursLarge() {
-    Assert.assertEquals("25006h", Util.timeFormatter(90020190));
-  }
 
   private RecipeSearchList getMockRecipeSearchList() {
     RecipeSearchList mockList = new RecipeSearchList();
@@ -89,7 +85,7 @@ public class RecipeViewModelUnitTest {
     Assert.assertEquals(expectedMatch0.getRecipeName(), actualMatch0.getRecipeName());
     Assert.assertEquals(expectedMatch0.getIngredients(), actualMatch0.getIngredients());
   }
-  public class InstantTaskExecutorRule extends TestWatcher {
+  private class InstantTaskExecutorRule extends TestWatcher {
     public void enableRule()  {
       ArchTaskExecutor.getInstance().setDelegate(new TaskExecutor() {
         @Override

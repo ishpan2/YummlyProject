@@ -3,9 +3,6 @@ package com.example.yummlyteam.app;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-
-import com.google.gson.Gson;
-
 import java.io.InputStream;
 
 
@@ -27,9 +24,13 @@ public class Util {
         if(timeInSeconds==null) {
             return "--";
         }
-        double min = ((double)timeInSeconds) / 60.0;
+        return timeFormatter((double)timeInSeconds);
+    }
+
+    private static String timeFormatter(double timeInSeconds) {
+        double min = timeInSeconds / 60.0;
         if (min >= 60) {
-            double hour = min/60;
+            double hour = min/60.0;
             return Math.round(hour) + "h";
         }
         return Math.round(min) + "m";

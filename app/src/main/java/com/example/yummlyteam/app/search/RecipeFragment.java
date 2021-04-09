@@ -64,8 +64,10 @@ public class RecipeFragment extends Fragment {
 
                 //Refactored to better implement DRY principles
                 ((RecipeListAdapter) recyclerView.getAdapter()).updateList(searchList, mViewModel.getCurrentSearchPage());
+
+
+                //Add a little UI cleanliness to app by scrolling down when new page loaded
                 if(mViewModel.getCurrentSearchPage()!=0) {
-                    //Add a little UI cleanliness to app by scrolling down when new page loaded
                     recyclerView.smoothScrollBy(0, (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 28, getResources().getDisplayMetrics()));
                 }
             }
