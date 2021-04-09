@@ -8,6 +8,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,9 +39,11 @@ public class RecipeFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(RecipeViewModel.class);
+        mViewModel = ViewModelProviders.of(getActivity()).get(RecipeViewModel.class);
 
         recyclerView = getView().findViewById(R.id.recyclerView);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext() ,LinearLayoutManager.VERTICAL, false);
+        recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(new RecipeListAdapter(new ArrayList<Match>()));
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
@@ -58,10 +61,15 @@ public class RecipeFragment extends Fragment {
             @Override
             public void onChanged(@Nullable final RecipeSearchList searchList) {
                 // Update the UI
-                if (searchList == null || searchList.getMatches() == null) { // clear the list
-                    ((RecipeListAdapter) recyclerView.getAdapter()).clearList();
-                } else
-                    ((RecipeListAdapter) recyclerView.getAdapter()).addItems(searchList.getMatches());
+
+                //Refactored to better implement DRY principles
+                ((RecipeListAdapter) recyclerView.getAdapter()).updateList(searchList, mViewModel.getCurrentSearchPage());
+
+
+                //Add a little UI cleanliness to app by scrolling down when new page loaded
+                if(mViewModel.getCurrentSearchPage()!=0) {
+                    recyclerView.smoothScrollBy(0, (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 28, getResources().getDisplayMetrics()));
+                }
             }
         };
         // attach the observer

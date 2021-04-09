@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     mViewModel = ViewModelProviders.of(this).get(RecipeViewModel.class);
 
     searchView = findViewById(R.id.recipeSearchBar);
+    //FUTURE WORK: Strings that are used in UI or repeated should be inside of resources, to support multiple languages and for quickly changing repeated text
     searchView.setQueryHint("Search Recipe");
     searchView.setIconified(false);
     searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     final Observer<String> queryObserver = new Observer<String>() {
       @Override
       public void onChanged(@Nullable String s) {
+        mViewModel.resetSearchPage();
         mViewModel.fetchRecipeSearchList();
       }
     };

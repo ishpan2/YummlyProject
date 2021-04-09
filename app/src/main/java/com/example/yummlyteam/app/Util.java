@@ -3,9 +3,12 @@ package com.example.yummlyteam.app;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import java.io.InputStream;
 
 
 public class Util {
+    //Should be in a different class, but did not want to create a whole new class for a singular flag considering the scope of this project
+    public static boolean areMocksEnabled = false;
 
     public static boolean isNetworkConnectionAvailable(Context context) {
         boolean isNetworkConnectionAvailable = false;
@@ -18,13 +21,32 @@ public class Util {
     }
 
     public static String timeFormatter(Integer timeInSeconds) {
-        int min = timeInSeconds / 60;
-        if (min >= 60) {
-            int hour = min/60;
-            return String.valueOf(hour) + "h";
+        if(timeInSeconds==null) {
+            return "--";
         }
-        return String.valueOf(min) + "m";
-
+        return timeFormatter((double)timeInSeconds);
     }
 
+    private static String timeFormatter(double timeInSeconds) {
+        double min = timeInSeconds / 60.0;
+        if (min >= 60) {
+            double hour = min/60.0;
+            return Math.round(hour) + "h";
+        }
+        return Math.round(min) + "m";
+    }
+
+    public static String getJsonFromAssets(String filename) {
+        try {
+            InputStream inputStream = Util.class.getClassLoader().getResourceAsStream(filename);
+            int size = inputStream.available();
+            byte[] buffer = new byte[size];
+            inputStream.read(buffer);
+            inputStream.close();
+            return new String(buffer);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }

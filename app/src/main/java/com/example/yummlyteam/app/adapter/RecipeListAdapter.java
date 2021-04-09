@@ -10,11 +10,13 @@ import android.widget.TextView;
 
 import com.example.yummlyteam.app.api.ApiClient;
 import com.example.yummlyteam.app.api.ApiInterface;
+import com.example.yummlyteam.app.model.RecipeSearchList;
 import com.example.yummlyteam.yummly_project.R;
 import com.example.yummlyteam.app.Util;
 import com.example.yummlyteam.app.model.Match;
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
+import com.squareup.picasso.RequestCreator;
 
 import java.util.List;
 
@@ -25,7 +27,6 @@ import retrofit2.Response;
 public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.RecipeViewHolder> {
 
   private List<Match> recipeList;
-
 
   public RecipeListAdapter(List<Match> recipeList) {
     this.recipeList = recipeList;
@@ -44,24 +45,32 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
 
     Match recipe = recipeList.get(i);
 
-    recipeViewHolder.recipeName.setText(recipe.getRecipeName());
+    //FUTURE WORK: Use lambda  function to handle null value and simplify these calls
+    recipeViewHolder.recipeName.setText(recipe.getRecipeName()!=null ? recipe.getRecipeName() : "--");
     recipeViewHolder.totalTime.setText(Util.timeFormatter(recipe.getTotalTimeInSeconds()));
     recipeViewHolder.totalCalories.setText("--");
-    recipeViewHolder.ingredients.setText(recipe.getIngredients().size());
+    recipeViewHolder.ingredients.setText(recipe.getIngredients()!=null ? String.valueOf(recipe.getIngredients().size()) : "--");
 
-    Picasso.with(recipeViewHolder.itemView.getContext())
-        .load(recipe.getSmallImageUrls().get(0))
-        .networkPolicy(
-            Util.isNetworkConnectionAvailable(recipeViewHolder.itemView.getContext()) ?
-                NetworkPolicy.NO_CACHE : NetworkPolicy.OFFLINE)
-        .into(recipeViewHolder.recipeImageView);
+    if(recipe.getSmallImageUrls()!=null && recipe.getSmallImageUrls().size()>=1) {
+      RequestCreator pictureRequest = Picasso.with(recipeViewHolder.itemView.getContext())
+              .load(recipe.getSmallImageUrls().get(0))
+              .error(android.R.drawable.sym_def_app_icon);
+      if(!Util.isNetworkConnectionAvailable(recipeViewHolder.itemView.getContext())) {
+        pictureRequest = pictureRequest.networkPolicy(NetworkPolicy.OFFLINE);
+      }
+      pictureRequest.into(recipeViewHolder.recipeImageView);
+    } else {
+      recipeViewHolder.recipeImageView.setImageResource(android.R.drawable.sym_def_app_icon);
+    }
 
-    if (recipe.getFlavors().getBitter().equals(1f)) {
+    if (recipe.getFlavors()!= null && recipe.getFlavors().getBitter()!=null && recipe.getFlavors().getBitter().equals(1.0)) {
       recipeViewHolder.recipeBitternessIndicator.setVisibility(View.VISIBLE);
+    } else {
+      recipeViewHolder.recipeBitternessIndicator.setVisibility(View.GONE);
     }
 
     ApiInterface apiService =
-            ApiClient.getClient().create(ApiInterface.class);
+            ApiClient.getClient(null).create(ApiInterface.class);
     Call<Match> getRecipeCall = apiService.getRecipe(recipe.getId());
 
     getRecipeCall.enqueue(new Callback<Match>() {
@@ -82,20 +91,24 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
     return recipeList.size();
   }
 
-  public boolean addItems(List<Match> newItems) {
-    if (recipeList !=null) {
-      int preSize = recipeList.size();
+  private void addItems(List<Match> newItems) {
       recipeList.addAll(newItems);
-      return true;
-    }
-    return false;
   }
 
-  public void clearList() {
-    if (recipeList != null) {
-      recipeList.clear();
+  public void updateList(RecipeSearchList searchList, int pageNumber) {
+    if (searchList == null || searchList.getMatches() == null) { // clear the list
+      clearList();
+    } else {
+      if(pageNumber==0) {
+        clearList();
+      }
+      addItems(searchList.getMatches());
     }
     notifyDataSetChanged();
+  }
+
+  private void clearList() {
+    recipeList.clear();
   }
 
 

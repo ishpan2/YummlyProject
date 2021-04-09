@@ -1,0 +1,709 @@
+{
+  "criteria":{
+    "q":"hui",
+    "allowedIngredient":null,
+    "excludedIngredient":null
+  },
+  "matches":[
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/3UqdJLDKXkv4dyrcX-pfyJIRwAoTlStpQuqF2QDuvLPoBfmiuudvR-xR0H0zj1QyNp46PrfyOT-dxSdcUWkkig=s90-c"
+      },
+      "sourceDisplayName":"Bread Booze Bacon",
+      "ingredients":[
+        "chicken thighs",
+        "pineapple juice",
+        "soy sauce",
+        "ketchup",
+        "brown sugar",
+        "chicken broth",
+        "garlic",
+        "fresh ginger",
+        "ground mustard",
+        "sliced green onions"
+      ],
+      "id":"Huli-Huli-Chicken-2479122",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/gJp6nxRu2nDk4W7jzfOdcfb3fXebm1ZcPfRMay8XRXtfZMOOwYJR_nOn-MfKz7mlCSJUvZqddwHXXuYEVYM5s4w=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":15180,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":{
+        "bitter":0.6666666666666666,
+        "meaty":0.6666666666666666,
+        "piquant":0.16666666666666666,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.5
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/PFGtVC_FmmJoPxLfJIckIDpZ_D4ePE2TH5dOchXhCpnrjeGfDLmS8Qy4y35novx21qE-UQr7ciTYND9UCtv9=s90-c"
+      },
+      "sourceDisplayName":"Taste and Tell",
+      "ingredients":[
+        "brown sugar",
+        "ketchup",
+        "soy sauce",
+        "sherry",
+        "fresh ginger",
+        "minced garlic",
+        "boneless skinless chicken breasts"
+      ],
+      "id":"Grilled-Huli-Huli-Chicken-1560301",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/Sdun81FuDHadU_Xecv9kGPesCsAdLxihaXl35L_AWV_3EGUaHCJaKbbhVC9xpye_cesrTSAJ89gH3TaZxiyg=s90"
+      ],
+      "recipeName":"Grilled Huli Huli Chicken",
+      "totalTimeInSeconds":30600,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.5,
+        "piquant":0.0,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.5
+      },
+      "rating":4
+    },
+    {
+      "recipeName":"Hui-Style Lamb Jiaozi (Chinese Dumplings)",
+      "ingredients":[
+        "ground lamb",
+        "fat",
+        "green onions",
+        "garlic cloves",
+        "green chilies",
+        "ground cumin",
+        "salt",
+        "soy sauce",
+        "dumpling wrappers"
+      ],
+      "totalTimeInSeconds":4200,
+      "sourceDisplayName":"Food.com",
+      "id":"Hui-Style-Lamb-Jiaozi-_Chinese-Dumplings_-Food_com-106111",
+      "rating":3,
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.6666666666666666,
+        "piquant":0.8333333333333334,
+        "salty":0.8333333333333334,
+        "sour":0.8333333333333334,
+        "sweet":0.16666666666666666
+      },
+      "attributes":{
+        "course":[
+          "Appetizers",
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Asian"
+        ]
+      }
+    },
+    {
+      "recipeName":"Twice-cooked Pork (hui Guo Rou)",
+      "ingredients":[
+        "pork tenderloin",
+        "mirin",
+        "ginger",
+        "garlic",
+        "leek",
+        "red bell pepper",
+        "peanut oil",
+        "sambal oelek",
+        "soybean paste",
+        "dark soy sauce"
+      ],
+      "totalTimeInSeconds":2100,
+      "sourceDisplayName":"Food.com",
+      "id":"Twice_cooked-Pork-_hui-Guo-Rou_-Recipezaar",
+      "rating":3,
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.6666666666666666,
+        "piquant":0.16666666666666666,
+        "salty":0.8333333333333334,
+        "sour":0.8333333333333334,
+        "sweet":0.16666666666666666
+      },
+      "attributes":{
+        "course":[
+          "Complete Main Dishes",
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Asian"
+        ]
+      }
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/I2Ft1LueCZXPg6PJ7VUfKKHtkMNtcLuEUoYnGOSn3eIa_4vMQEAt_w-3EOztjTRCMsutAdRO7KOfkduo-aQjSQ=s90-c"
+      },
+      "sourceDisplayName":"Pixie Dust Savings",
+      "ingredients":[
+        "brown sugar",
+        "ketchup",
+        "reduced sodium soy sauce",
+        "pineapple juice",
+        "chicken broth",
+        "fresh ginger root",
+        "minced garlic",
+        "skinless boneless chicken thighs"
+      ],
+      "id":"Hawaiian-Huli-Huli-Chicken-1243789",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/OFpx_vD60adoWn_DROZrFasote_VoT3P6p2m2Y9TVUUpbvxogDv_oFKrC2dzzujPEslEgFxm2Ex-p2qrPvex9Q=s90"
+      ],
+      "recipeName":"Hawaiian Huli Huli Chicken",
+      "totalTimeInSeconds":1800,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue",
+          "Hawaiian",
+          "Kid-Friendly"
+        ]
+      },
+      "flavors":{
+        "bitter":0.6666666666666666,
+        "meaty":0.5,
+        "piquant":0.0,
+        "salty":0.6666666666666666,
+        "sour":0.16666666666666666,
+        "sweet":0.5
+      },
+      "rating":3
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/wsgwLkANYI7-CLL2iwcsSlc3tXD75aDFy9so5uh3Coz15YC5m6qnybLQAgYKPjR7sMUF7D1_LZywE4U3w0Blqw=s90-c"
+      },
+      "sourceDisplayName":"How does your garden grow",
+      "ingredients":[
+        "brown sugar",
+        "sweet paprika",
+        "smoked paprika",
+        "black pepper",
+        "chili powder",
+        "granulated garlic",
+        "onion powder",
+        "kosher salt",
+        "cumin",
+        "pineapple juice",
+        "ketchup",
+        "soy sauce",
+        "chicken broth",
+        "ginger paste",
+        "minced garlic",
+        "boneless, skinless chicken breast"
+      ],
+      "id":"Grilled-Huli-Huli-Chicken-9049164",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/AkvyspLYsf0BIz8v3oQ941mNn5_wJVKWSh8Fg2msOEocvW34nY8DZOS9oJugDXuIrRv0DKJIgbVzfD2_yZ9toBc=s90"
+      ],
+      "recipeName":"Grilled Huli Huli Chicken",
+      "totalTimeInSeconds":24000,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.8333333333333334,
+        "piquant":0.8333333333333334,
+        "salty":0.8333333333333334,
+        "sour":0.8333333333333334,
+        "sweet":0.8333333333333334
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/N1IglB7lMPfL2Rnj-hn2Sts4iXON4mQnvYpVn-WY_umfcrhpRjkLSV84uQDuXeIu5-9OW7sp6WZ23iNrccZHBg=s90-c"
+      },
+      "sourceDisplayName":"Kevin Is Cooking",
+      "ingredients":[
+        "baby-back pork ribs",
+        "pineapple juice",
+        "pineapple chunks",
+        "soy sauce",
+        "brown sugar",
+        "ketchup",
+        "sherry",
+        "fresh ginger",
+        "garlic cloves",
+        "sesame oil",
+        "white pepper"
+      ],
+      "id":"Huli-Huli-Ribs-2450342",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/mbM-0ZM4TEDd7-cL0kZ5H4JeBBU6HH1Gyr_5tuPphRPciXigbS9AxHeUMvqjQlEP18uTcOPoGeTDXbCTAnEl=s90"
+      ],
+      "recipeName":"Huli Huli Ribs",
+      "totalTimeInSeconds":4500,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ],
+        "holiday":[
+          "Summer"
+        ]
+      },
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.8333333333333334,
+        "piquant":0.16666666666666666,
+        "salty":0.8333333333333334,
+        "sour":0.5,
+        "sweet":0.5
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.ggpht.com/ounLdmo89TU9qgDbipEgs1R5wIPJt_LPxdP0Csd7cyIVL8ZyQVBnIS4-P5rdTfQkE7od_m0aeuYLF5PHiF8wigc=s90-c"
+      },
+      "sourceDisplayName":"Every Day with Rachael Ray",
+      "ingredients":[
+        "chicken",
+        "salt",
+        "garlic",
+        "ginger",
+        "dark brown sugar",
+        "dark soy sauce",
+        "chicken broth",
+        "rice wine vinegar",
+        "pineapple juice concentrate"
+      ],
+      "id":"Huli-huli-chicken-346767",
+      "smallImageUrls":[
+        "https://lh3.ggpht.com/HoFTV935Smv7oF83yBJ753QdXfKCCcuGcXY8esc-a1iETN1z7ZqyeE7_ANfLJJ1DIieX_lqZjtMIuZ8p4G_fog=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":3300,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Hawaiian"
+        ]
+      },
+      "flavors":{
+        "bitter":0.3333333333333333,
+        "meaty":0.6666666666666666,
+        "piquant":0.0,
+        "salty":0.5,
+        "sour":0.16666666666666666,
+        "sweet":0.3333333333333333
+      },
+      "rating":5
+    },
+    {
+      "recipeName":"Sichuan Twice-Cooked Pork Belly (Hui Guo Rou)",
+      "ingredients":[
+        "pork belly",
+        "kosher salt",
+        "leeks",
+        "black beans",
+        "bean sauce",
+        "Shaoxing wine",
+        "soy sauce",
+        "sugar"
+      ],
+      "totalTimeInSeconds":null,
+      "sourceDisplayName":"Saveur",
+      "id":"Sichuan-Twice-Cooked-Pork-Belly-_Hui-Guo-Rou_-2269519",
+      "rating":3,
+      "flavors":{
+        "bitter":0.16666666666666666,
+        "meaty":0.8333333333333334,
+        "piquant":0.0,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.16666666666666666
+      },
+      "attributes":{
+
+      }
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/MoACgT5iRO03UxMUuE5QYUXJiL_z49DpoIN2YpOcACgssq26Z0jUs6bMpmWwHGhLoxerQ6xbEqQf4pZyYSu_LQ=s90-c"
+      },
+      "sourceDisplayName":"Delicious.",
+      "ingredients":[
+        "pork loins",
+        "marinade",
+        "char",
+        "hoisin sauce",
+        "honey",
+        "soy sauce",
+        "wine",
+        "Chinese five-spice",
+        "ginger",
+        "sesame oil",
+        "chilli flakes",
+        "white vinegar",
+        "baby cucumbers"
+      ],
+      "id":"Char-Sui-Pork-2488901",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/PBIdYdmkjJw5TvwB24WzO7TsEIH3BcjZPula_vKsDx7mjv-UOfNCQrtnZ7r_ObQa9LSHFVJh155Ozok44IM8Nw=s90"
+      ],
+      "recipeName":"Char Sui Pork",
+      "totalTimeInSeconds":3300,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ]
+      },
+      "flavors":null,
+      "rating":3
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/j_3Ao2Rp3uFm7mxPFm0W3EyqqOQyEmVNnTVQN2SIi84h9BnRqRpRqpY0-qimrcx2FQRT4XSnzWnsBxJQIKUjgA=s90-c"
+      },
+      "sourceDisplayName":"Fake Ginger",
+      "ingredients":[
+        "pineapple juice",
+        "brown sugar",
+        "ketchup",
+        "fresh lime juice",
+        "soy sauce",
+        "garlic cloves",
+        "fresh ginger",
+        "salt",
+        "pepper",
+        "vegetable oil spray",
+        "chicken breasts"
+      ],
+      "id":"Slow-Cooker-Huli-Huli-Chicken-1682498",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/ezD2hgy7SMC_bxwngWtEUdpeJoLh3iZOngxzK73OgVOLuz-uHKktkQx5pJ5Nhayrm-IboELlOfPf0RS6GyfkrQ=s90"
+      ],
+      "recipeName":"Slow Cooker Huli Huli Chicken",
+      "totalTimeInSeconds":3600,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ]
+      },
+      "flavors":{
+        "bitter":0.5,
+        "meaty":0.5,
+        "piquant":0.0,
+        "salty":0.6666666666666666,
+        "sour":0.16666666666666666,
+        "sweet":0.3333333333333333
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/hCdJJdM7o1LmsbjYN6CbPO6ppy3ljY9u44lVQWWkU3h8cjDKKXBWKrwzSwRSO0i390YgkIiupiUMuc-KlSH2Xbg=s90-c"
+      },
+      "sourceDisplayName":"Just a Pinch",
+      "ingredients":[
+        "roast beef",
+        "salt",
+        "pepper",
+        "all-purpose flour"
+      ],
+      "id":"Hi-Temp-Roast-Beef---The-Best-Roast-You-Will-Ever-Eat_-2405723",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/t0xpgDEryp9gIttDLepmVMc1ZFWR7sZFcj454DRchWS_YzQUX1WZopggN8M17LE5Lrc7x_VVoUyfchQGgxfbZQ=s90"
+      ],
+      "recipeName":"Hi-Temp Roast Beef - The Best Roast You Will Ever Eat!",
+      "totalTimeInSeconds":3600,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "holiday":[
+          "Sonntagsessen"
+        ]
+      },
+      "flavors":null,
+      "rating":3
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/Fv4mPkViymCiKj5rDKz9SqvDGl0BTz9G659LvBfD43veKO3DogN_pXfPikgnRAXhkUdnKvCQhmThpl_bJkP_yw=s90-c"
+      },
+      "sourceDisplayName":"3Jamigos",
+      "ingredients":[
+        "bone in chicken thighs",
+        "pineapple juice",
+        "shoyu",
+        "brown sugar",
+        "ketchup",
+        "chicken broth",
+        "ginger root",
+        "minced garlic",
+        "cornstarch",
+        "cold water",
+        "green onions",
+        "roasted sesame seeds"
+      ],
+      "id":"Huli-Huli-Chicken-2352899",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/F9ckzfzuNC7rWzcemCbnRDh_VapIRAfL-vq8DvPXF2sG3nCWaNTQVdm95g83irJpM5b7flIcb3qL9ggw9qNnlYY=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":2100,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ]
+      },
+      "flavors":{
+        "bitter":0.6666666666666666,
+        "meaty":0.5,
+        "piquant":0.0,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.5
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/Wlinx9ck_N_t0bV_aysXwdv0yBH_jAXxChsPVMaE09pkarAlPBH6xgOrCEYqOroaiS_u-G2Oc6u42esSJRhMtic=s90-c"
+      },
+      "sourceDisplayName":"Pork",
+      "ingredients":[
+        "pork tenderloin",
+        "hoisin sauce",
+        "grenadine syrup",
+        "soy sauce",
+        "ginger",
+        "garlic",
+        "sesame oil",
+        "steamed white rice",
+        "cabbage",
+        "cilantro",
+        "carrots",
+        "peanuts",
+        "green onion",
+        "rice wine vinegar",
+        "canola oil",
+        "sugar",
+        "sesame seeds"
+      ],
+      "id":"Char-Shui-Style-BBQ-Pork-Tenderloin-with-Rice-and-Cabbage-Salad-2248107",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/79IccJte6SCy-q6-wtIM8uiucdqoCY3D4ESa65E4gvlUSdEEl-I88Wsqqq0ALeZO0v1gFz_gucqqHmdwMRo2Dg=s90"
+      ],
+      "recipeName":"Char Shui Style BBQ Pork Tenderloin with Rice and Cabbage Salad",
+      "totalTimeInSeconds":3000,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Asian"
+        ]
+      },
+      "flavors":{
+        "bitter":1.0,
+        "meaty":1.0,
+        "piquant":0.0,
+        "salty":1.0,
+        "sour":1.0,
+        "sweet":1.0
+      },
+      "rating":3
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/5rLlt0THBpK1Jog4l0vV97a2Ad23IOOotTC18kEpsV5Ng6sPex0kzCCHZLu4XKb-9SDm5E3Ew6i3lGWVqPbIfQ=s90-c"
+      },
+      "sourceDisplayName":"Lil' Luna",
+      "ingredients":[
+        "brown sugar",
+        "ketchup",
+        "reduced sodium soy sauce",
+        "chicken broth",
+        "ginger",
+        "minced garlic",
+        "boneless, skinless, chicken thighs"
+      ],
+      "id":"Grilled-Huli-Huli-Chicken-2118980",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/D7PF84rkYaqUfVN8BX9V_Y4y42d6LLOIOARw1_phNiRZp653mk-aoRwHxmIC3-d-pHSSmRj1fUhxSrFEW9ch-w=s90"
+      ],
+      "recipeName":"Grilled Huli Huli Chicken",
+      "totalTimeInSeconds":1800,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue",
+          "Kid-Friendly"
+        ]
+      },
+      "flavors":{
+        "bitter":0.8333333333333334,
+        "meaty":0.3333333333333333,
+        "piquant":0.0,
+        "salty":0.8333333333333334,
+        "sour":0.16666666666666666,
+        "sweet":0.5
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/0kVNCiQv2Pnz4xBt2mkhNbtTvWfCKKcVKhtvK1NNgLUi2dGtx-HBLSQ6wIJV9G-Wk-G9QvHZ8UH3woUeOTsm=s90-c"
+      },
+      "sourceDisplayName":"Immaculate Bites",
+      "ingredients":[
+        "chicken drumsticks",
+        "unsweetened pineapple juice",
+        "soy sauce",
+        "brown sugar",
+        "honey",
+        "ketchup",
+        "ginger",
+        "minced garlic",
+        "spice",
+        "Sriracha",
+        "lemon juice",
+        "chicken broth",
+        "green onions"
+      ],
+      "id":"Huli-Huli-Chicken-9017619",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/JXXVPw4VDLHNSPufQ2fJi8NuxAAc-ojmpOL9IZ-JjcQRcX1wWFG80Sa0klLIKp2XngZWTpzbMcf8RBwG798aNQ=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":4200,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":{
+        "bitter":0.3333333333333333,
+        "meaty":0.6666666666666666,
+        "piquant":0.16666666666666666,
+        "salty":0.6666666666666666,
+        "sour":0.16666666666666666,
+        "sweet":0.3333333333333333
+      },
+      "rating":4
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/K-nXgLZbxRZbUPeoh4RnFNnMvrHi61AKSVSe6OQtvMdS5F0jVxjCNK9QI60FT6Iu_0sesJkai2Xma18QSPFVzQ=s90-c"
+      },
+      "sourceDisplayName":"Today",
+      "ingredients":[
+        "cold water",
+        "soy sauce",
+        "sesame oil",
+        "garlic",
+        "fresh ginger",
+        "chickens",
+        "pineapple juice",
+        "light brown sugar",
+        "ketchup",
+        "rice vinegar",
+        "sriracha"
+      ],
+      "id":"Huli-Huli-Chicken-2171617",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/Uh9vXzTXdYL-zzVLZK3eX-FJsK5gHiIq-w2SIf7wrR3M0t8WCa1oQy5AY3hBQlecBdG1K4L14ADicEbeCJsTcis=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":4500,
+      "attributes":{
+
+      },
+      "flavors":null,
+      "rating":3
+    },
+    {
+      "imageUrlsBySize":{
+        "90":"https://lh3.googleusercontent.com/RL5LVTq5PwoxfaAZFfZaXvWRm1NAAn31-WM2kZ98H61p24_tSQYt9SXbFuNADGJcS2yP-IxxubmPvZFRFN_umA=s90-c"
+      },
+      "sourceDisplayName":"Kay's Clean Eats",
+      "ingredients":[
+        "chicken thighs",
+        "pineapple juice",
+        "soy sauce",
+        "ketchup",
+        "agave",
+        "toasted sesame oil",
+        "ginger",
+        "garlic cloves",
+        "green onion"
+      ],
+      "id":"Huli-Huli-Chicken-9242603",
+      "smallImageUrls":[
+        "https://lh3.googleusercontent.com/Szan7SxaORo2Oh5K03TEZNa9HZLb1m-eh0HuWBWzCP_iqTiQ_25EH4vyvhCktmU0p4ZNB13gUG3Y1I3IplyyYNw=s90"
+      ],
+      "recipeName":"Huli Huli Chicken",
+      "totalTimeInSeconds":1800,
+      "attributes":{
+        "course":[
+          "Main Dishes"
+        ],
+        "cuisine":[
+          "Barbecue"
+        ]
+      },
+      "flavors":{
+        "bitter":0.5,
+        "meaty":0.6666666666666666,
+        "piquant":0.0,
+        "salty":0.6666666666666666,
+        "sour":0.16666666666666666,
+        "sweet":0.16666666666666666
+      },
+      "rating":4
+    }
+  ],
+  "totalMatchCount":666,
+  "attribution":{
+    "html":"Recipe search powered by <a href='https://www.yummly.com/recipes'><img alt='Yummly' src='https://static.yummly.com/api-logo.png'/></a>",
+    "url":"https://www.yummly.com/recipes/",
+    "text":"Recipe search powered by Yummly",
+    "logo":"https://static.yummly.com/api-logo.png"
+  }
+}
